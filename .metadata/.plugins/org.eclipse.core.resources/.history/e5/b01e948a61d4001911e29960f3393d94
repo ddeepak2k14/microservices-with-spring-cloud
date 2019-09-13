@@ -1,0 +1,13 @@
+package com.deepak.microservices.gateway;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringCloudZuulGatewayApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudZuulGatewayApplication.class, args);
+	}
+
+}
